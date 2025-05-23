@@ -1,4 +1,4 @@
-import db from '../../utils/db';
+import db from '../../utils/db.js';
 import { hash } from 'bcryptjs';
 export default async function handler(req, res) {
   const { username, password } = req.body;
