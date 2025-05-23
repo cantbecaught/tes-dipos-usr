@@ -1,4 +1,4 @@
-import db from '../../utils/db';
+import db from '../../utils/db.js';
 import { compare } from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 export default async function handler(req, res) {
